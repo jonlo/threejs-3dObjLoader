@@ -3,19 +3,28 @@
 
 <head>
 	<title>Three.js</title>
-	<style type="text/css">
-		html,
+	<style>
 		body {
-			margin: 0;
-			padding: 0;
-			overflow: hidden
+			background-color: #fff;
+			color: #222;
+		}
+
+		a {
+			color: #08f;
+		}
+
+		#container {
+			position: absolute;
+			width: 100%;
+			height: 100%
 		}
 	</style>
 </head>
 
 <body>
-	<div style="margin-left: 400px;display: none;"> <input type="file" id="colladaInput" accept=".dae,.DAE"></div>
-    <script src="main.js"></script>
+	<div id="container">
+	</div>
+	<script src="main.js"></script>
 </body>
 
 </html>
